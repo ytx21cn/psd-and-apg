@@ -1,0 +1,177 @@
+/* main */
+.apg, .psd {
+  width: 912px;
+  height: 600px;
+  position: absolute;
+  float: left;
+}
+
+/* control */
+.control {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+button {
+  padding: 0.5em;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+#back {
+	background-color: Navy;
+}
+#help {
+	background-color: DarkGoldenRod;
+	cursor: help;
+}
+#open {
+  background-color: Green;  
+}
+#close {
+  background-color: DarkRed;  
+}
+
+/* light */
+.light {
+  background-color: DarkGoldenRod;
+}
+.lightOn {
+  background-color: Gold;
+}
+
+/* warning */
+.warning {
+  font-family: "roboto", "source-han-sans-simplified-c", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  border: solid red;
+  border-width: 5px 0px; 
+  width: 100%;
+  position: absolute;
+}
+.warning1 {
+  font-size: 16pt;
+}
+.warning2 {
+  font-size: 12pt;
+}
+	
+/* ASD */
+#asd1 {
+	right: 50%;
+}
+#asd2 {
+	left: 50%;
+}
+div.asdUnlocker {
+  background-color: LightGray;
+  border-radius: 6px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: -16px;
+}
+
+/* train components */
+/* train doors */
+.td {
+	background-color: white;
+	border: solid black 5px;
+	z-index: -3;
+	position: absolute;
+	bottom: 10px;
+	width: 150px;
+	height: 360px;
+}
+#td1 {
+	right: 50%;
+}
+#td2 {
+	left: 50%;
+}
+.td .strip {
+	bottom: 85px;
+}
+.tdg {
+	background-color: gray;
+	border: solid black 5px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -2;
+	top: 30px;
+	width: 70px;
+	height: 140px;
+}
+#tdg1 {
+	right: 20px;
+}
+#tdg2 {
+	left: 20px;
+}
+.door {
+	background-color: gray;
+	position: absolute;
+	z-index: -4;
+	width: 280px;
+	height: 370px;
+	left: 316px;
+	bottom: 10px;
+}
+
+/* back */
+.bottom {
+	background-color: black;
+	width: 100%;
+	height: 10px;
+	z-index: -5;
+	position: absolute;
+	bottom: 0px;
+}
+.back {
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	z-index: -5;
+	position: absolute;
+	bottom: 180px;
+}
+.strip {
+	background-color: DarkBlue;
+	position: absolute;
+	z-index: -5;
+	height: 50px;
+	width: 100%;
+	bottom: 100px;
+}
+.window {
+	background-color: gray;
+	border: solid black 5px;
+	position: absolute;
+	z-index: -4;
+	top: 35px;
+	width: 115px;
+	height: 140px;
+}
+#window1 {
+	border-left-width: 0px;
+	border-radius: 0px 10px 10px 0px;
+	left: 0px;
+}
+#window2 {
+	border-right-width: 0px;
+	border-radius: 10px 0px 0px 10px;
+	right: 0px;
+}
+.traintop {
+	background-color: white;
+	border: solid black;
+	border-width: 5px 0px;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	z-index: -3;
+	bottom: 380px;
+}

@@ -1,0 +1,13 @@
+@import url("fonts.css");
+
+/* body formatting */
+body {
+	font-family: Roboto, Segoe UI, Noto Sans Symbols, Noto Sans CJK SC, Source Han Sans SC, Source Han Sans CN, Microsoft YaHei UI, Microsoft YaHei, sans-serif;
+	font-size: 12pt;
+}
+ul em {
+	border: 2px solid gray;
+	border-radius: 2px;
+	background-color: #eeeeee;
+	line-height: 2em;
+}

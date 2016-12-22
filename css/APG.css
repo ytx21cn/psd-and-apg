@@ -1,0 +1,59 @@
+/* light */
+#light1, #light2 {
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  margin: auto;
+  top: -20px;
+}
+#light1 {
+  right: -20px;
+}
+#light2 {
+  left: -20px;
+}
+
+/* asd */
+.asd {
+  border: solid DarkGray;
+  border-width: 20px 20px 60px 20px;
+  height: 250px;
+  width: 180px;
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+}
+.asdUnlocker {
+  top: 40%;
+}
+.warning {
+  bottom: 60%;
+}
+
+/* fix */
+.fix {
+  border: solid DimGray;
+  border-width: 20px 20px 100px 20px;
+  height: 220px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+#fix1 {
+  border-left: 0px;
+  left: 0px;
+  width: 116px;
+}
+#fix2 {
+  left: 136px;
+  width: 80px;
+}
+#fix3 {
+  right: 136px;
+  width: 80px;
+}
+#fix4 {
+  border-right: 0px;
+  right: 0px;
+  width: 116px;
+}

@@ -1,0 +1,34 @@
+body {
+  margin: auto;
+  max-width: 1024px;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1em;  
+}
+ul {
+  padding: 0px;
+}
+li {
+  color: white;
+  margin: 0.5em;
+  padding: 1em;
+  text-align: center;
+  font-size: 48px;
+  list-style-type: none;
+}
+#PSD {
+  background-color: navy;
+}
+#APG {
+  background-color: darkred;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
