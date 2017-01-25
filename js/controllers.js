@@ -16,7 +16,7 @@ $(function () {
 		
 	/* Event for "Go Back" Button */
 	$("#back").click(function goBack() {
-		window.location.replace("index.html");
+		window.location.replace("./");
 	});
 	
 	/* Event for "Help" Button */
