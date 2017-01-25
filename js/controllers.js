@@ -28,7 +28,7 @@ $(function () {
 	
 	/* Door Open */
 	$("#open").click(function doorOpen(){
-		/* reset door and light status */		
+		/* reset door and light status */
 		clearInterval(l);
 		$("#asd1").stop(); 
 		$("#asd2").stop();
@@ -54,11 +54,14 @@ $(function () {
 				clearInterval(l);
 			};
 		};
+		/* gap warning on */
+		$(".gapWarning").addClass("gapWarningOn");
 	});
 	
 	/* Door Close */
 	$("#close").click(function doorClose() {
-		/* reset door and light status */		
+		/* reset door and light status */
+		$(".gapWarning").addClass("gapWarningOn");
 		clearInterval(l);
 		$("#asd1").stop(); 
 		$("#asd2").stop();
@@ -84,6 +87,8 @@ $(function () {
 				clearInterval(l);
 			};
 		};
+		/* gap warning off */
+		setTimeout(function(){$(".gapWarning").removeClass("gapWarningOn");}, 3000);
 	});
 
   /* Tooltips for controllers */

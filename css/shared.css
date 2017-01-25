@@ -39,6 +39,19 @@ button {
 .lightOn {
   background-color: Gold;
 }
+.gapWarning {
+  height: 100px;
+  width: 400px;
+  opacity: 0.6;
+  background-image: none;
+  position: absolute;
+  left: 256px;
+  bottom: 0px;
+  z-index: -2;
+}
+.gapWarningOn {
+  background-image:linear-gradient(transparent, blue); 
+}  
 
 /* warning */
 .warning {
