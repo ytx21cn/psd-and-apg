@@ -89,6 +89,7 @@ $(function () {
 			};
 		};
 		/* gap warning off */
+		clearTimeout(g);
 		g = setTimeout(function(){$(".gapWarning").removeClass("gapWarningOn");}, 3000);
 	});
 
