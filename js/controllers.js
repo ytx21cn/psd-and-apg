@@ -24,7 +24,7 @@ $(function () {
 		window.open("help.html", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,top=100,left=100,width=700,height=500");
 	});
 	
-	var l,t;
+	var l,t,g;
 	
 	/* Door Open */
 	$("#open").click(function doorOpen(){
@@ -55,6 +55,7 @@ $(function () {
 			};
 		};
 		/* gap warning on */
+		clearTimeout(g);
 		$(".gapWarning").addClass("gapWarningOn");
 	});
 	
@@ -88,7 +89,7 @@ $(function () {
 			};
 		};
 		/* gap warning off */
-		setTimeout(function(){$(".gapWarning").removeClass("gapWarningOn");}, 3000);
+		g = setTimeout(function(){$(".gapWarning").removeClass("gapWarningOn");}, 3000);
 	});
 
   /* Tooltips for controllers */
